@@ -13,7 +13,7 @@ app = Flask(__name__)
 # localhost:5000/
 @app.route('/')  # Decorator
 def index():
-    return '<h1>Hello World!!</h1>'  # Return either HTML or simple text
+    return '<h1>Hello World!! Wazzup!</h1>'  # Return either HTML or simple text
 
 
 if __name__ == '__main__':  # When this file is run...
